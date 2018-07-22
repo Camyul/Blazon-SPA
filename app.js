@@ -7,7 +7,7 @@ app.use(express.static('public'));
 app.use('/libs', express.static('node_modules'));
 // app.use(bodyParser.json());
 
-const port = process.env.port || 3001;
+const port = process.env.PORT || 3001;
 
 // app.get('/', function(req, res) {
 //     console.log('Its Work!');
